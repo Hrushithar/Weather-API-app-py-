@@ -1,3 +1,12 @@
+# Weather App using PyQt5 and OpenWeatherMap API
+# This script creates a simple weather application that allows users to enter a city name
+# and fetches the current weather information using the OpenWeatherMap API.
+# The application displays the weather information including temperature, humidity, wind speed,
+# and a weather emoji based on the weather condition.
+# The user can toggle between Celsius and Fahrenheit units for temperature display.
+# The application is styled using Qt stylesheets for a modern look and feel.
+# Import necessary libraries
+# PyQt5 is used for creating the GUI, and requests is used for making HTTP requests to the API.
 import sys
 import requests
 from PyQt5.QtWidgets import (
